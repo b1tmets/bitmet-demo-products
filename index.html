@@ -1,0 +1,57 @@
+<html>
+
+<head>
+    <title>Bitmet Products Demo</title>
+    <meta charset="utf-8" />
+    
+    <!-- Favicons -->
+    <link href="images/favicon.png" rel="icon" />
+    <link href="images/favicon.png" rel="apple-touch-icon" />
+
+    <link rel="stylesheet" href="lib/style.css" />
+    <link rel="stylesheet" href="lib/leaflet/leaflet.css" />
+    <link rel="stylesheet" href="lib/animate/wind-js-leaflet.min.css" />
+</head>
+
+<body onload="Wh.init();">
+    <div id="time-control" class="leaflet-wh-timecontrol">
+        <button id="prev">|&lt;</button>
+        <button id="next">&gt;|</button>
+        <select id="var">
+            <option value="2mRelativeHumidity">Humedad Relativa a 2m</option>
+            <option value="2mTemperature">Temperature at 2m</option>
+            <!--<option value="MaxCAPE">Max. Cape</option> 
+            <option value="PrecipitableWater">Agua Precipitable</option> -->
+            <option value="CloudTopTemperature">Temperatura del Tope de las Nubes</option>
+            <option value="CloudFraction">Fraccion de Nubosidad</option>
+            <option value="CompositeReflectivity">Máximos de reflectividad</option>
+            <!--<option value="SeaLevelPressure">Presión a nivel del mar</option> -->
+            <option value="TotalPrecipitation">Acumulados horarios de precipitación</option>
+            <option value="10mWindSpeed">Velocidad del Viento a 10m</option>
+          </select>
+    </div>
+    <div id="map">
+    </div>
+
+
+    <script type="text/javascript" src="lib/jquery.min.js"></script>
+    <script type="text/javascript" src="lib/leaflet/leaflet.js"></script>
+    <script type="text/javascript" src="lib/animate/wind-js-leaflet.js"></script>
+    <script type="text/javascript" src="lib/leaflet-heat.js"></script>
+
+    <link rel="stylesheet" href="css/leaflet.timedimension.control.min.css" />
+    <link rel="stylesheet" href="css/Control.FullScreen.min.css" />
+
+    <script type="text/javascript" src="js/Control.FullScreen.min.js"></script>
+    <!-- script type="text/javascript" src="../dist/leaflet.timedimension.min.js"></script -->
+    <script type="text/javascript" src="js/leaflet.timedimension.js"></script>
+    <script type="text/javascript" src="js/leaflet.timedimension.util.js"></script>
+    <script type="text/javascript" src="js/leaflet.timedimension.layer.js"></script>
+    <script type="text/javascript" src="js/leaflet.timedimension.layer.wms.js"></script>
+    <script type="text/javascript" src="js/leaflet.timedimension.player.js"></script>
+    <script type="text/javascript" src="js/leaflet.timedimension.control.js"></script>
+
+    <script type="text/javascript" src="lib/script.js"></script>
+</body>
+
+</html>

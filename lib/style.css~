@@ -1,0 +1,61 @@
+body {
+    margin: 0px;
+}
+
+#heading {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: #CCC;
+}
+
+a {
+    color: #3388ff;
+}
+
+#map {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #333;
+}
+
+.leaflet-canvas-layer {
+    opacity: 0.55;
+}
+
+.leaflet-wh-timecontrol {
+    position: absolute;
+    left: 10;
+    bottom: 90;
+    z-index: 2000;
+}
+
+.leaflet-wh-timeline {
+    height: 12px;
+    width: 450px;
+    border: solid 1px #ffffff;
+    display: inline-block;
+    border-radius: 4px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.leaflet-wh-timeline .progress {
+    background-color: rgba(0, 0, 0, .4);
+    width: 60px;
+    height: 140%;
+    z-index: 2010;
+/*
+    position: relative;
+    top: -20px;
+*/
+}
+
+.leaflet-wh-timeline .tick {
+    height: 10px;
+    width:  58px;
+    border: solid 1px;
+    z-index: 2015;
+    display: inline-block;
+}

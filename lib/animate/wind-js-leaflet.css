@@ -1,0 +1,13 @@
+.leaflet-control-wind-position {
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 0 5px;
+  #margin: 10 !important;
+  margin-right: 0px;
+  color: #333;
+  font: 11px/1.5 "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+
+.wind-overlay {
+  position: absolute;
+  z-index: 1;
+}
